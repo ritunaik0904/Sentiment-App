@@ -1,0 +1,57 @@
+The interview was conducted on Zoom platform. There were a total of 3 rounds (2 technical and 1 HR)
+
+Round 1 : First Technical Interview (45 min)
+
+Questions :
+
+Tell me about yourself.
+Explain any internship that you have done.
+What are the different server technologies that you know ?
+JDK Architecture.
+What are the different types of data structures ?
+Difference between arrays and linked lists.
+Write code to insert element in sorted linked list (code to be written without any code editor).
+Java OOPS concepts.
+Few other questions of similar difficulty were asked that I don't remember.
+
+Round 2 : Second Technical Interview (45 min)
+
+Questions :
+
+Tell me about yourself.
+Explain any project that you have done.
+Make an ER diagram for the above explained project. (it was a firebase database, so after making some relations I told him about it and he went ahead with the next question)
+What is multithreading and how do you achieve multithreading in Java ?
+Can you have a try block without catch block ? Follow up question : When does finally block get executed ?
+Explain all the OOPS concepts in Java.
+What are collections in Java ?
+What is hashing ?
+What is primary and secondary index in DBMS ?
+Explain DDL and DML statements with examples.
+What is finalize() method in Java ?
+Write code for any sorting algorithm (I chose merge sort) (online code editor was provided, any language could be used (even python)).
+After this he asked me if I was okay with going on-site for a few times in a year if needed for some project. He asked me if I had any questions for him. I asked him what exactly is the job description and what is expected from us in the first few months of joining.
+
+Round 3 : HR Round (15 min)
+
+Note : The HR said this was not a part of the interview (but it actually was). Two candidates had to give this round simultaneously.
+
+Questions :
+
+How was the interview experience ?
+Why do you want to join Oracle ?
+Are you comfortable with any job location ? (they only take candidates who are flexible to work at any location)
+Why choose a consultant job and not a development job ?
+What skills do you have to take this job ? (we both said some management and team work skills but he expected some technical skills from us)
+The interviewers were very experienced, but chill. At the end of the day 18 students were selected and 3 others were wait listed (would be considered later).
+
+Note : Wear formals, interviews will be in English only, do revise Java concepts, OOPS, DBMS and OS one day before the interview, go through your projects, dynamic programming was not asked.
+
+Tips :
+
+Be confident. Since the interview process was online, I was not at all nervous. Trust me it would have been very different for me if it was conducted offline. Be relaxed and have some sleep the day before.
+I answered almost all the questions correctly, but don't worry if you couldn't answer a few. I couldn't find any examples of DDL and DML statements and I said honestly that I was embarrassed that I could not answer such a simple question.
+Do explain the codes as you write them as it helped me when my code gave a runtime error. In my code for merge sort I forgot to call the merge function, I did point it out later but interviewer went ahead anyways as I had explained to him step by step what was happening as I wrote the lines of code.
+I was selected.
+
+All the best.

@@ -1,15 +1,18 @@
 import joblib
 import os
 from flask import Flask, request, jsonify
-from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)  # 👈 Add this line
+CORS(app)
 
 # Load model and vectorizer
 model = joblib.load("sentiment_model.pkl")
 vectorizer = joblib.load("vectorizer.pkl")
+
+@app.route("/", methods=["GET"])
+def index():
+    return jsonify({"message": "Sentiment Analysis API is running. Use POST /predict with JSON {\"text\": \"your text here\"}."})
 
 @app.route("/predict", methods=["POST"])
 def predict():
